@@ -38,15 +38,19 @@ public class AddInvoiceItemController implements Initializable {
     
     @FXML
     private void addInItem(ActionEvent event) {
-        
-        //System.out.println(ProductID.getText());
+        /*
+            #FROM ARAFATH
+            just commented the code below to avoid database errors
+            cuz out UI is not yet validated :)
+        */
+        /*
         InvoiceItem inItem = new InvoiceItem();
         inItem.ProductID = ProductID.getText();
         inItem.InItemPackSize = Integer.parseInt(InItemPackSize.getText());
         inItem.InItemQty = Integer.parseInt(InItemQty.getText());
         inItem.InItemFree = Integer.parseInt(InItemFree.getText());
         inItem.InItemPrice = Integer.parseInt(InItemPrice.getText());
-        
+        */
         
     }
     /**
