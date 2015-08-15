@@ -47,6 +47,7 @@ public class AddInvoiceItemController implements Initializable {
         inItem.InItemFree = Integer.parseInt(InItemFree.getText());
         inItem.InItemPrice = Integer.parseInt(InItemPrice.getText());
         
+        
     }
     /**
      * Initializes the controller class.
